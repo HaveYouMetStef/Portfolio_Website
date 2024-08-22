@@ -71,3 +71,9 @@
             color: #4CAF50;
             text-decoration: none;
         }
+        a[href*='a5949a130'] {
+            color: green;
+        }
+        a[href*='HaveYouMetStef'] {
+            color: green;
+        }
