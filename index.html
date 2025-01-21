@@ -30,10 +30,21 @@
 
     <!-- About Me Section -->
     <section id="about">
-        <h2 class="section-title">About Me</h2>
+        <h2 class="section-title">Summary</h2>
         <p>
             Welcome! I'm Stef Castillo, a passionate software developer with a background in HR operations. After 6+ years of experience in HR, supporting large operations teams and managing the employee lifecycle, I decided to transition into the tech world to pursue my love for coding. My journey has been filled with challenges and learning experiences that have shaped me into the developer I am today.
         </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul>
+            <li><strong>Technical Skills:</strong> Swift, Xcode, Git, GitHub, iOS Development, UI Design</li>
+            <li><strong>HR & Recruiting Skills:</strong> Recruiting, Onboarding, Offboarding, Compliance, Employee Relations, Performance Management, UI Claims, Leave Requests</li>
+            <li><strong>Tools:</strong> Workday, Zendesk, Asana, Salesforce, Paycor, SmartRecruiters, GHire, Lark, Google Suite, X-Ray Searches, Project Management, Reporting</li>
+            <li><strong>Recruiting Tools:</strong> LinkedIn Recruiter, Indeed, HireEZ, GitHub, Boolean Searches, Behavioral Interviewing, Referral Management</li>
+        </ul>
     </section>
 
     <!-- Experience Section -->
@@ -53,7 +64,8 @@
         <p>
             - <strong>Corporate Recruiter & Clinical Recruiter at MGA Homecare</strong> | September 2017 – June 2021<br>
             At MGA Homecare, I recruited and hired over 100 internal and external candidates, fulfilling 85% of job requisitions. My role also involved onboarding 200 internal employees, ensuring 100% new hire compliance. I managed the ATS to provide detailed candidate information, leading to more efficient and standardized hiring processes.</p>
-
+        <br>
+        
         <h3>Software Development Experience</h3>
         <p>
             - <strong>iOS Developer Certification from Devmountain</strong> | March 2023<br>
@@ -61,52 +73,61 @@
         </p>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills">
-        <h2 class="section-title">Skills</h2>
-        <ul>
-            <li><strong>Technical Skills:</strong> Swift, Xcode, Git, GitHub, iOS Development, UI Design</li>
-            <li><strong>HR & Recruiting Skills:</strong> Recruiting, Onboarding, Offboarding, Compliance, Employee Relations, Performance Management, UI Claims, Leave Requests</li>
-            <li><strong>Tools:</strong> Workday, Zendesk, Asana, Salesforce, Paycor, SmartRecruiters, GHire, Lark, Google Suite, X-Ray Searches, Project Management, Reporting</li>
-            <li><strong>Recruiting Tools:</strong> LinkedIn Recruiter, Indeed, HireEZ, GitHub, Boolean Searches, Behavioral Interviewing, Referral Management</li>
-        </ul>
-    </section>
 
     <!-- Portfolio Section -->
     <section id="portfolio">
         <h2 class="section-title">Portfolio</h2>
         <div class="project">
-            <h3>[Project Name]</h3>
-            <img src="[project-image.jpg]" alt="[Project Name]">
-            <p>Description of the project, technologies used, and the outcome.</p>
+            <h3>
+            <a href="https://haveyoumetstef.github.io/New_Era/" target="_blank" rel="noopener noreferrer">New Era</a>
+            </h3>
+            <p>The New Era Flag Football Website is a dynamic and interactive platform created to track and showcase my 8v8 flag football team’s season progress, stats, and achievements. The site serves as a centralized hub for players and fans, featuring real-time updates, game results, and historical data from previous seasons. This project was built as part of my web development journey to gain hands-on experience with front-end and back-end technologies.</p>
         </div>
         <!-- Add more projects as needed -->
     </section>
 
-    <!-- Blog Section -->
-    <section id="blog">
-        <h2 class="section-title">Blog</h2>
-        <p>
-            Check out my latest articles where I share my experiences, lessons learned, and insights on software development and my career transition.
-        </p>
-        <ul>
-            <li><a href="#">[Blog Post Title]</a> - Brief description of the post.</li>
-            <!-- Add more blog posts as needed -->
-        </ul>
-    </section>
-
     <!-- Contact Section -->
-    <section id="contact">
-        <h2 class="section-title">Contact</h2>
-        <p>Feel free to reach out to me through any of the following channels:</p>
-        <ul>
-            <li>Email: <a href="mailto:estefancastillo94@gmail.com">estefancastillo94@gmail.com</a></li>
-            <li><a href="https://www.linkedin.com/in/estefan-castillo-a5949a130/" target="_blank"> LinkedIn</a></li>
-            <li><a href="https://github.com/HaveYouMetStef">GitHub</a></li>
-            <!-- Add other social media or contact links -->
-        </ul>
-    </section>
 
+    <section class="contact-section">
+        <div class="contact-intro">
+          <h2 class="contact-title">Connect With Me</h2>
+          <p class="contact-description">
+            Fill out the form below and I'll be happy to get back to you as soon as possible.
+          </p>
+        </div>
+      
+        <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+      
+
+          <input type="hidden" name="access_key" value="8c9e9d9a-1681-4ca4-9f59-479aca71d3df" />
+          <input type="hidden" name="subject" value="New Contact Form Submission from Web3Forms" />
+          <input type="hidden" name="from_name" value="My Website" />
+
+      
+          <div class="form-group-container">
+            <div class="form-group">
+              <label for="name" class="form-label">Name</label>
+              <input id="name" name="name" class="form-input" placeholder="Your name" type="text" required/>
+            </div>
+            <div class="form-group">
+              <label for="email" class="form-label">Email</label>
+              <input id="email" name="email" class="form-input" placeholder="Your email" type="email" required/>
+            </div>
+            <div class="form-group">
+              <label for="phone" class="form-label">Phone</label>
+              <input id="phone" name="phone" class="form-input" placeholder="+1 (234) 5678" type="text" />
+            </div>
+            <div class="form-group">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-textarea" id="message" name="message" placeholder="Your message"></textarea>
+            </div>
+          </div>
+          <button class="form-submit" type="submit">Send Message</button>
+        </form>
+      
+      </section>
+
+    
     <!-- Footer -->
     <footer>
         <p>&copy; 2024 Stef Castillo. All Rights Reserved.</p>
